@@ -2,9 +2,10 @@ const btn_el = document.getElementById('btn');
 const playBtn_el = document.getElementById('playBtn');
 let image = document.querySelector('#bulbImg');
 const decorateBtn_el = document.getElementById('decorateBtn');
+const button_el = document.getElementById('cake');
 function run(){
     changeBGColor('#FFD9B7');
-    image.remove();
+    image.style.opacity = 0;
     playBtn_el.style.display = 'block';
 }
 function changeBGColor(color){
@@ -28,6 +29,7 @@ decorateBtn_el.addEventListener("click",function(){
         bannerImage_el.classList.remove('flying');
         bannerImage_el.classList.add('fixed');
     }, 5000);
+    button_el.style.display = 'block';
 })
 /*function animateBanner(){
     bannerImage_el.style.display = 'block';
@@ -38,6 +40,11 @@ decorateBtn_el.addEventListener("click",function(){
     }, 5000);
 }
 */
+/*Birthday Cake*/
+const mycake_el = document.getElementById("cakeSVG");
+button_el.addEventListener("click", function(){
+  mycake_el.style.display = 'block';
+})
 /*make the bulb glow pink */
 /*const bulbElement = document.querySelector('.bulb');
 function startGlowAnimation(){
