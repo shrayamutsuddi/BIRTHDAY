@@ -1,0 +1,328 @@
+body{
+    background-color: black;
+}
+#btn{                               /*Applies style to the "btn" button*/
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    /*font-family: 'Playfair Display', serif;*/         /*font for displaying text.*/
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+#btn:hover {                /*Applies style on hovering the "btn" button*/
+    background-color: #7EAA92;
+}
+#bulbImg{
+    height: 150px;
+    position: absolute;
+    left: 45rem;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+#playBtn{
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+#decorateBtn{
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+@keyframes flyBanner{
+    0% {
+        transform: translateY(100vh) rotate(50deg);
+    }
+    100% {
+        transform: translateY(50px) rotate(0deg);
+    }
+}
+.flying {
+    animation: flyBanner 5s linear forwards; /* Adjust animation duration and timing function as needed */
+}
+.pos{
+    margin: auto;
+}
+@keyframes fixBanner{
+    0%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(2);
+    }
+}
+
+/*.cake{
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes flyCake{
+    0%{
+
+    }
+}
+*/
+
+
+
+
+/*.bulb_glow_pink{
+    background-image: url('bulb_pink.png');
+    -webkit-animation: bulb_glow_pink linear 5s;
+    animation: bulb_glow_pink linear 5s;
+}
+@-webkit-keyframes bulb_glow_pink{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_pink.png');
+        opacity: 1;
+    }
+}
+*/
+
+/*
+#bulb_glow_yellow{
+    background-image: url('bulb_yellow.png');
+    -webkit-animation: bulb_glow_yellow linear 5s;
+    animation: bulb_glow_yellow linear 5s;
+}
+@-webkit-keyframes bulb_glow_yellow{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_yellow.png');
+        opacity: 1;
+    }
+}
+#bulb_glow_red{
+    background-image: url('bulb_red.png');
+    -webkit-animation: bulb_glow_red linear 5s;
+    animation: bulb_glow_red linear 5s;
+}
+@-webkit-keyframes bulb_glow_red{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_red.png');
+        opacity: 1;
+    }
+}
+.bulb_glow_blue{
+    background-image: url('bulb_blue.png');
+    -webkit-animation: bulb_glow_blue linear 5s;
+    animation: bulb_glow_blue linear 5s;
+}
+@-webkit-keyframes bulb_glow_blue{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_blue.png');
+        opacity: 1;
+    }
+}
+bulb_glow_green{
+    background-image: url('bulb_green.png');
+    -webkit-animation: bulb_glow_green linear 5s;
+    animation: bulb_glow_green linear 5s;
+}
+@-webkit-keyframes bulb_glow_green{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_green.png');
+        opacity: 1;
+    }
+}
+*/
+/*bulb_glow_pink{
+    background-image: url('bulb_pink.png');
+    -webkit-animation: bulb_glow_pink linear 5s;
+    animation: bulb_glow_pink linear 5s;
+}
+@-webkit-keyframes bulb_glow_pink{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_pink.png');
+        opacity: 1;
+    }
+}
+/*
+bulb_glow_orange{
+    background-image: url('bulb_orange.png');
+    -webkit-animation: bulb_glow_orange linear 5s;
+    animation: bulb_glow_orange linear 5s;
+}
+@-webkit-keyframes bulb_glow_orange{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_orange.png');
+        opacity: 1;
+    }
+}
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #d54d56;
+}
+
+#cake {
+  display: block;
+  position: relative;
+  margin: -10em auto 0 auto;
+}
+
+/* ============================================== Candle
+*/
+
+.velas {
+  background: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  top: 228px;
+  left: 50%;
+  margin-left: -2.4px;
+  margin-top: -8.33333333px;
+  width: 5px;
+  height: 60px;
+  transform: translateY(-300px);
+  backface-visibility: hidden;
+  animation: in 500ms 5s ease-out forwards;
+}
+.velas:after,
+.velas:before {
+  background: rgba(255, 0, 0, 0.4);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.22222222px;
+}
+.velas:after {
+  top: 25%;
+  left: 0;
+}
+.velas:before {
+  top: 45%;
+  left: 0;
+}
+
+/* ============================================== Fire
+*/
+
+.fuego {
+  border-radius: 100%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -2.6px;
+  width: 6.66666667px;
+  height: 18px;
+}
+.fuego:nth-child(1) {
+  animation: fuego 2s 6.5s infinite;
+}
+.fuego:nth-child(2) {
+  animation: fuego 1.5s 6.5s infinite;
+}
+.fuego:nth-child(3) {
+  animation: fuego 1s 6.5s infinite;
+}
+.fuego:nth-child(4) {
+  animation: fuego 0.5s 6.5s infinite;
+}
+.fuego:nth-child(5) {
+  animation: fuego 0.2s 6.5s infinite;
+}
+
+/* ============================================== Animation Fire
+*/
+
+@keyframes fuego {
+  0%, 100% {
+    background: rgba(254, 248, 97, 0.5);
+    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+    transform: translateY(-20px) scale(0);
+  }
+}
+
+@keyframes in {
+  to {
+    transform: translateY(0);
+  }
+}
