@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+}
+#btn{                               /*Applies style to the "btn" button*/
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    /*font-family: 'Playfair Display', serif;*/         /*font for displaying text.*/
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+#btn:hover {                /*Applies style on hovering the "btn" button*/
+    background-color: #7EAA92;
+}
+#bulbImg{
+    height: 150px;
+    position: absolute;
+    left: 45rem;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+#playBtn{
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+#decorateBtn{
+    background-color: #C8E4B2;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+}
+@keyframes flyBanner{
+    0% {
+        transform: translateY(100vh) rotate(50deg);
+    }
+    100% {
+        transform: translateY(50px) rotate(0deg);
+    }
+}
+.flying {
+    
+    animation: flyBanner 5s linear forwards; /* Adjust animation duration and timing function as needed */
+}
+
+.pos {
+    margin: auto;
+}
+@keyframes fixBanner{
+    0%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(2);
+    }
+}
+
+
+
+
+
+
+
+/*.bulb_glow_pink{
+    background-image: url('bulb_pink.png');
+    -webkit-animation: bulb_glow_pink linear 5s;
+    animation: bulb_glow_pink linear 5s;
+}
+@-webkit-keyframes bulb_glow_pink{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_pink.png');
+        opacity: 1;
+    }
+}
+*/
+
+/*
+#bulb_glow_yellow{
+    background-image: url('bulb_yellow.png');
+    -webkit-animation: bulb_glow_yellow linear 5s;
+    animation: bulb_glow_yellow linear 5s;
+}
+@-webkit-keyframes bulb_glow_yellow{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_yellow.png');
+        opacity: 1;
+    }
+}
+#bulb_glow_red{
+    background-image: url('bulb_red.png');
+    -webkit-animation: bulb_glow_red linear 5s;
+    animation: bulb_glow_red linear 5s;
+}
+@-webkit-keyframes bulb_glow_red{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_red.png');
+        opacity: 1;
+    }
+}
+.bulb_glow_blue{
+    background-image: url('bulb_blue.png');
+    -webkit-animation: bulb_glow_blue linear 5s;
+    animation: bulb_glow_blue linear 5s;
+}
+@-webkit-keyframes bulb_glow_blue{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_blue.png');
+        opacity: 1;
+    }
+}
+bulb_glow_green{
+    background-image: url('bulb_green.png');
+    -webkit-animation: bulb_glow_green linear 5s;
+    animation: bulb_glow_green linear 5s;
+}
+@-webkit-keyframes bulb_glow_green{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_green.png');
+        opacity: 1;
+    }
+}
+*/
+/*bulb_glow_pink{
+    background-image: url('bulb_pink.png');
+    -webkit-animation: bulb_glow_pink linear 5s;
+    animation: bulb_glow_pink linear 5s;
+}
+@-webkit-keyframes bulb_glow_pink{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_pink.png');
+        opacity: 1;
+    }
+}
+/*
+bulb_glow_orange{
+    background-image: url('bulb_orange.png');
+    -webkit-animation: bulb_glow_orange linear 5s;
+    animation: bulb_glow_orange linear 5s;
+}
+@-webkit-keyframes bulb_glow_orange{
+    0%{
+        background-image: url('bulb.png');
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        background-image: url('bulb_orange.png');
+        opacity: 1;
+    }
+}
+*/
